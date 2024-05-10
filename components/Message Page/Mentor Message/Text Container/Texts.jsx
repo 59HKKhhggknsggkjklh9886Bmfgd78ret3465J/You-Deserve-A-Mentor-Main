@@ -1,8 +1,7 @@
 import React from 'react'
 import "./texts.css"
-import Resources from './Resources'
 
-const Texts = ({showResources}) => {
+const Texts = () => {
     const sender = ["a","c","esdfksjf lsglg  gkadlkglk lg godjoao g ds;lgjo go og oadjgo; oifg oladg adhgldajgl lfo flhasklfoflaf asf lasjfglkjdglgklah glh glahog hlkagalhg aihgi agiiahilgliogl aoig","g"]
     const receiver = ["b","d","f","h"]
   return (
