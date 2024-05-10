@@ -3,7 +3,7 @@ import "./event.css"
 
 const ongoingevents = ["","","",""];
 
-const OngoingEvents = () => {
+const PastEvents = () => {
     return (
     <div className='eventCards'>
         {
@@ -39,4 +39,4 @@ const OngoingEvents = () => {
   )
 }
 
-export default OngoingEvents
+export default PastEvents
