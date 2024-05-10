@@ -6,9 +6,9 @@ const Resources = ({classname}) => {
     <div className={classname}>
         ldgjslaglgj
         adsglksad; g;lasdf
-        as'dg[askgv'lashg;lajf
+        as'dgaskgv'lashg;lajf
         a'd
-        asdgl;ahflasfkad]
+        asdgl;ahflasfkad
     </div>
   )
 }
