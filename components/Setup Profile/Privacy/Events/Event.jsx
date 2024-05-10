@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./event.css"
 import OngoingEvents from './OngoingEvents';
-import Pastevents from './Pastevents';
+import Pastevents from './PastEvents';
 import UpcomingEvents from './UpcomingEvents';
 
 const eventBtns = ['ON GOING','PAST','UPCOMING'];
