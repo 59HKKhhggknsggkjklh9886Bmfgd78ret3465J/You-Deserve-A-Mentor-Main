@@ -1,0 +1,33 @@
+.tipsBody
+{
+    height: 5rem;
+    width: 5rem;
+    background-color: wheat;
+    border-radius: 50%;
+    
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+    color: rgb(92, 92, 92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px -1px 1.5rem black;
+    font-size: 2rem;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.tipsBody:hover
+{
+    box-shadow: -1px -1px 1.5rem black;
+    /* box-shadow: -1px -1px 1.5rem rgb(255, 249, 208); */
+    background-color: rgb(223, 202, 161);
+    transition: all 0.3s ease;
+}
+
+.bulb-tip
+{
+    position: absolute;
+    top: 1.3rem;
+}

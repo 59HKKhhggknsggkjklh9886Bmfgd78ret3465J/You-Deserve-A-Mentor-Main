@@ -1,0 +1,218 @@
+.eventBody
+{
+    height: 110svh;
+    width: 100%;
+    color: black;
+    background-color: rgb(216, 216, 216);
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.eventHeading
+{
+    /* background-color: rgb(27, 29, 31); */
+    border-radius: 20rem;
+    /* border: 1px green solid; */
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    padding-top: 0.5rem;
+    font-size: 3rem;
+    width: 50%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: rgb(226, 226, 226);
+    overflow: hidden;
+    position: relative;
+}
+
+.eventTitles
+{
+    /* border: 1px solid red; */
+    height: 35rem;
+    width: 80%;
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+
+.eventCards
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.eventCards > div
+{
+    border-radius: 0.5rem;
+}
+
+
+.eventCardBody
+{
+    background-color: rgb(255, 255, 255);
+    /* height: max-content; */
+    min-height: 10rem;
+    width: calc(100% - 1rem);
+    display: flex;
+    /* border-bottom: 1px rgb(216, 216, 216) solid; */
+}
+.leftEventCard
+{
+    /* border: 1px green solid; */
+    width: 80%;
+}
+.rightEventCard
+{
+    /* border: 1px blue solid; */
+    width: 20%;
+}
+
+
+.eventName
+{
+    /* background-color: green; */
+    width: max-content;
+    font-weight: 600;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: rgb(73, 73, 73);
+    text-transform:uppercase;
+}
+.eventDate
+{
+    /* background-color: red; */
+    min-width: max-content;
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+.eventBio
+{
+    /* background-color: green; */
+    height: max-content;
+    padding: 1rem;
+    font-size: 0.85rem;
+    overflow: hidden;
+}
+
+.leftTopSectionEventCard
+{
+    min-height: 3rem;
+    display: flex;
+    /* background-color: blue; */
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.selectedEventBtn
+{
+    background-color: rgb(80, 169, 241);
+    letter-spacing: 0.2rem;
+    color: white;
+    /* box-shadow: inset 1px 5px 5px rgb(142, 247, 139),inset -1px -5px 5px rgb(67, 170, 63), 1px 1px 4px rgba(23, 61, 22, 0.678); */ 
+}
+
+.eventTopic
+{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.eventTitle:hover > .eventBullet1
+{
+    background-color: rgb(52, 130, 219);
+    transform: translateX(-0.1rem);
+    transition: all 0.4s ease;
+}
+.eventTitle:hover > .eventBullet2
+{
+    border-color: rgb(52, 130, 219);
+    scale: 1.5;
+    transition: all 0.4s ease;
+}
+
+
+.eventEffect1
+{
+    height: 50rem;
+    width: 110%;
+    background-color: rgb(60, 64, 90);
+    position: absolute;
+    transform: rotateZ(5deg);
+    transition: transform 0.3s ease-out,width 0.5s ease 0.1s;
+}
+
+.eventBody:hover .eventEffect1
+{
+    width: 70%;
+    transition: width 0.5s ease;
+}
+
+.eventHeading p
+{
+    transition: all 0.3s ease 0.2s;
+    color: white;
+    z-index: 0;
+}
+
+.eventBody:hover .eventHeading p
+{
+    transform: translateX(1rem);
+    letter-spacing: 2rem;
+    transition: all 0.3s ease;
+}
+
+
+.eventBtnGroup
+{
+    margin-top: 1rem;
+    height: 4rem;
+    width: 60%;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+.eventBtnGroup > div
+{
+    width: 10rem;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    height: 2.5rem;
+    transition: all 0.2s ease;
+}
+
+
+.eventBtnGroup > div:hover
+{
+    background-color: rgb(80, 169, 241);
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    /* box-shadow: inset 1px 5px 5px rgb(142, 247, 139),inset -1px -5px 5px rgb(67, 170, 63), 1px 1px 4px rgba(23, 61, 22, 0.678); */
+    transition: all 0.2s ease,box-shadow 0s ease;
+}
+

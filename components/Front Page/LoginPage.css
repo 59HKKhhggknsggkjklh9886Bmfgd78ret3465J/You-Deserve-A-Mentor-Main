@@ -1,0 +1,307 @@
+.loginBody
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(2px);
+}
+
+
+.signinCard
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px blue solid; */
+}
+
+g
+{
+    /* border: 1px green solid; */
+    margin-top: 3.125rem;
+    margin-right: 1.25rem;
+}
+
+.popup
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupChild
+{
+    /* border: 1px yellow solid; */
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.548),-1px -1px 30px rgba(0, 0, 0, 0.568);
+    /* border: 1px solid yellow; */
+    height: 25rem;
+    width: 31.25rem;
+    background-color: rgba(43, 43, 43, 0.6);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+
+    animation-duration: 0.5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein
+{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.nameCard
+{
+    height: 18.75;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px yellow solid; */
+}
+
+.continueSigninCard
+{
+    /* border: 1px blue solid; */
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signInText
+{
+    font-size: 30px;
+    color: rgb(221, 221, 221);
+    user-select: none;
+    margin-top: 10px;
+    /* border: 1px green solid; */
+    border-bottom: 2px rgb(206, 206, 206) solid;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.login1stPage
+{
+    /* border: 1px green solid; */
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closeBtn
+{
+    border-top-right-radius: 10px;
+    height: 35px;
+    width: 60px;
+    background-color: rgb(24, 24, 24);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+    z-index: 4;
+}
+
+.googleLogin
+{
+    height: 30px;
+    width: 240px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: rgb(177, 37, 37);
+}
+
+.googleLogin p
+{
+    padding-right: 16px;
+    font-weight: 200;
+}
+
+.googleImg
+{
+    /* border: 1px black solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 40px;
+    /* padding-right: 30px; */
+}
+
+.continue
+{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    margin-bottom: 30px;
+    user-select: none;
+}
+
+.closeBtn:hover
+{
+    background-color: black;
+    transition: background-color 0.1s ease;
+    cursor: pointer;
+}
+
+.signinBtn
+{
+    /* border: 1px solid green; */
+    width: 305px;
+    padding: 14px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0;
+    background-color: black;
+    transition: box-shadow 0.1s ease;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+    user-select: none;
+    transition: all 0.2s ease;
+}
+
+.signinBtn:hover
+{
+    box-shadow: 1px 1px 10px rgb(59, 59, 59);
+    background-color: rgb(14, 64, 155);
+    transition: all 0.2s ease;
+}
+
+.names
+{
+    margin-top: 60px;
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.nameCol
+{
+    display: flex;
+    gap: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+.nameCol p
+{
+    padding: 14px;
+    width: 93px;
+    background-color: white;
+    margin-right: 3px;
+    color: black;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+input
+{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    font-size: 16px;
+}
+
+.icons
+{
+    /* border: 1px blue solid; */
+    display: flex;
+    gap: 30px;
+
+}
+
+.icons li
+{
+    user-select: none;
+    /* border: 1px red solid; */
+    border-radius: 60px;
+    height: 70px;
+    width: 70px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 80px;
+    scale: 1;
+    transition: scale 0.3s ease;
+    z-index: 4;
+}
+
+.icons li:hover
+{
+    scale: 1.03;
+    box-shadow: 1px 1px 10px rgb(58, 58, 58);
+    /* filter: invert(1); */
+    transition: scale 0.3s ease;
+}
+
+
+.icons img
+{
+    z-index: 2;
+    
+}
+
+
+.icons p1
+{
+    position: absolute;
+    /* z-index: -1; */
+    
+    color: white;
+    letter-spacing: -0.4rem;
+    transition: all 0.2s ease;
+}
+
+
+.icons li:hover > p1
+{
+    letter-spacing: normal;
+    transform: translateY(-3.3rem);
+
+    transition: all 0.2s ease;
+    /* transition-delay: 0.1s; */
+    /* transition: letter-spacing 0.4s ease; */
+
+}

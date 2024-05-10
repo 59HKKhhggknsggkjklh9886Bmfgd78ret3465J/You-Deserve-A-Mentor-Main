@@ -1,0 +1,76 @@
+.dashboardBody
+{
+    background-color: rgb(216, 216, 216);
+    height: max-content;
+    /* border: 1px blue solid; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dashboardBody > div
+{
+    display: flex;
+}
+
+
+.dashboardLineChart
+{
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 1px 3px 0px, rgba(27, 31, 35, 0.267) 0px 0px 0px 1px;
+    /* margin: 2rem; */
+    background-color: rgb(47, 49, 65);
+    color: black;
+    font-weight: 500;
+    height: fit-content;
+
+    border-radius: 0.6rem;
+    /* border: 1px blue solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: scale 0.5s ease;
+    /* overflow: hidden; */
+    width: fit-content;
+
+    position: relative;
+}
+
+
+.monthlyActivity
+{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: 500;
+    width: max-content;
+    height: 10rem;
+    border-radius: 0.6rem;
+    /* box-shadow: 0.1rem 0.1rem 2rem rgba(0, 0, 0, 0.247); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: scale 0.5s ease;
+    margin-left: 0;
+}
+
+.container-2
+{
+    /* border: 1px red solid; */
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.currentRankBody
+{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(97, 97, 97);
+}

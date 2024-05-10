@@ -1,0 +1,235 @@
+.mentorCard img
+{
+    height: inherit;
+}
+
+.mentorImg
+{
+    height: 6rem;
+    width: 6rem;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid transparent;
+    transition: all 0.1s ease;
+}
+
+.mentorCard:hover
+{
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px rgb(129, 129, 129);
+    transition: all 0.2s ease;
+}
+
+
+.mentorCard
+{
+    outline: 2px rgb(182, 182, 182) solid;
+    height: max-content;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    align-items: center;
+    /* border: 1px red solid; */
+    position: relative;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+    /* border-radius: 0.5rem; */
+    /* overflow: hidden; */
+    transition: all 0.3s ease;
+}
+
+
+.mentorBio p
+{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.lowerMentorCard
+{
+    /* border: 1px blue solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.lowerMentorCard div
+{
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px green solid; */
+}
+
+.mentorImg
+{
+    margin-top: 0.6rem;
+    height: 8rem;
+    width: 8rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
+}
+
+
+.bookMentor
+{
+    height: 3rem;
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.1s ease;
+    z-index: 3;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.mentorCard:hover > .mentorPrice
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.mentorPrice
+{
+    height: 3rem;
+    background-color: rgb(81, 180, 236);
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: none;
+}
+
+
+.bookMentor:hover
+{
+    height: 3rem;
+    opacity: 1;
+    transition: height 0.1s ease, opacity 0.1s ease;
+
+    /* border-radius: 0 0 1rem 1rem; */
+}
+
+.bookMentor:active
+{
+    font-size: 0.95rem;
+}
+
+
+h1
+{
+    font-size: 1rem;
+}
+
+h2
+{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+.mentorSub
+{
+    /* border: 1px solid red; */
+    color: rgb(68, 68, 68);
+    font-size: 0.9rem;
+}
+
+.mentorName
+{
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
+.mentorNameSub
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: green 1px solid; */
+    width: 90%;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    padding-bottom: 0.7rem;
+}
+
+.mentorCard:hover  .heartImg
+{
+    display: block;
+}
+
+.heartImg
+{
+    position:absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    display: none;
+    filter: grayscale(100%);
+    max-height: 2rem;
+}
+
+.heartImg:hover
+{
+    filter: grayscale(0%);
+}
+
+.tooltip {
+    /* position: relative; */
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 8rem;
+    background-color: rgb(66, 66, 66);
+    color: #fff;
+    text-align: center;
+    border-radius: 0.6rem;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    top: 2.9rem;
+    right: -2rem;
+    opacity: 0;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+opacity: 1;
+transition: all 0.4s ease;
+}
+
+
+.emptyBottom
+{
+    height: 3rem;
+}

@@ -1,0 +1,16 @@
+.mainTextBody
+{
+    height: calc(100% - 4rem - 4rem - 0.2rem - 1px);
+    width: 100%;
+    background-color: rgba(214, 214, 214, 0.76);
+}
+
+.allTextsBody
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0);
+    /* border: 10px green solid; */
+    position: relative;
+    overflow: hidden;
+}

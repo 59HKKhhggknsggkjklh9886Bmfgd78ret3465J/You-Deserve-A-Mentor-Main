@@ -1,0 +1,68 @@
+.profileDetailsBody
+{
+    /* border: 1px green solid; */
+    width: 100%;
+    padding-left: 2rem;
+    display: flex;
+    align-items:flex-end;
+    height: fit-content;
+}
+.profilePicture img
+{
+    border: 0.5rem rgb(0, 0, 0) solid;
+    height: 30rem;
+    width: fit-content;
+    border-radius: 0.6rem;
+}
+
+.profilePictureContainer2
+{
+    /* border: blue 1px solid; */
+    width: 100%;
+    margin-left: 5rem;
+}
+
+.profileDetailsName
+{
+    background-color: rgba(0, 0, 0, 0.76);
+    width: max-content;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.profileDetailsName p
+{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.profilePictureBio
+{
+    /* border: 1px green solid; */
+    margin-top: 3rem;
+}
+.profilePictureBio p
+{
+    color: black;
+}
+
+
+.profilePictureSkills
+{
+    /* border: 1px solid red; */
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 0.1rem;
+}
+.profilePictureSkills p
+{
+    width: fit-content;
+    border: black solid 3px;
+    background-color: rgb(80, 169, 241);
+    color: black;
+    font-weight: 500;
+    padding: 0.2rem 1rem;
+    border-radius: 0.2rem;
+}

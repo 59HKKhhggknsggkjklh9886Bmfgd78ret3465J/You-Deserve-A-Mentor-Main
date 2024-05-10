@@ -1,0 +1,27 @@
+.calendarBody
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.6rem;
+    background:linear-gradient(rgba(0, 0, 0, 0.377),rgba(255, 255, 255, 0.356));
+    cursor: pointer;
+    /* opacity: 0.3; */
+    backdrop-filter: blur(1rem);
+    height: 23rem;
+    width: 20rem;
+}
+
+
+.dashboardCalender
+{
+    height: max-content;
+    border-radius: 0.6rem;
+    background: url("calendar background.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.1rem 0.1rem 2rem rgba(0, 0, 0, 0.247);
+    /* height: 2rem; */
+}

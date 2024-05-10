@@ -1,0 +1,67 @@
+.defaultPage
+{
+    user-select: none;
+    height: max-content;
+    /* margin-top: 5rem; */
+    overflow: hidden;
+    cursor: default;
+}
+
+.defaultPic
+{
+    height: calc(100svh);
+    overflow: hidden;
+    cursor: default;
+    background-image: url("/defpageimage.png");
+    background-size: cover;
+}
+
+
+.defPic
+{
+    cursor: default;
+}
+
+.defaultPic img
+{
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+}
+
+
+.defaultText
+{
+    margin-top: 5rem;
+    user-select: none;
+    color: white;
+    font-size: 15vh;
+    width: 100%;
+    height: inherit;
+    position:absolute;
+    top: 30svh;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.defaultText p
+{
+    opacity: 1;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein
+{
+    from {
+        margin-top: 10%;
+        opacity: 0;
+    }
+    to {
+        margin-top: 0%;
+        opacity: 1;
+    }
+}

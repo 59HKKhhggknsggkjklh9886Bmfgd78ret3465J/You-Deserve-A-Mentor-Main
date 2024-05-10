@@ -1,0 +1,180 @@
+.textNavbarBody
+{
+    height: calc(4.2rem + 1px);
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftTextNavbar
+{
+    display: flex;
+}
+
+
+.textNavbarDp
+{
+    /* border: 1px yellow solid; */
+    width: 3rem;
+    margin-left: 2rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.textNavbarDp img
+{
+    height: 4.5rem;
+}
+
+
+.textNavbarInfoContainer
+{
+    /* border: 1px black solid; */
+    margin-left: 0.5rem;
+
+}
+
+.textNavbarTimePeriod
+{
+    font-size: 0.7rem;
+}
+
+.textNavbarName
+{
+    height: fit-content;
+    width: fit-content;
+    /* border: 1px red solid; */
+}
+
+
+
+
+/* right */
+
+
+.midTextNavbar
+{
+    /* border: black solid 1px; */
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+
+.callingTextNavbar
+{
+    /* border: 1px solid yellow; */
+    display: flex;
+    width: 5rem;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.callingTextNavbar > div > p
+{
+    cursor: pointer;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(99, 99, 99);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.callingTextNavbar > div > p:hover
+{
+    background-color: rgb(71, 71, 71);
+    border-radius: 30%;
+    transition: all 0.2s ease;
+}
+
+.resourcesTextNavbar
+{
+    /* border: 1px blue solid; */
+    height: 2rem;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    background-color: rgb(80, 169, 241);
+    color: white;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.9s ease;
+
+    overflow: hidden;
+}
+
+.closeTextNavbar
+{
+    /* border: 1px blue solid; */
+    height: 2rem;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 2rem;
+    background-color: rgb(40, 101, 151);
+    color: white;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 3s ease;
+    
+    overflow: hidden;
+}
+
+.resourcesTextNavbar:hover
+{
+    box-shadow: 1px 1px 8px rgb(156, 156, 156);
+    transition: box-shadow 0.2s ease, border-radius 0.4s ease;
+}
+.closeTextNavbar:hover
+{
+    box-shadow: 1px 1px 8px rgb(156, 156, 156);
+    transition: box-shadow 0.2s ease, border-radius 0.4s ease;
+}
+
+
+
+.resourceBtnOn
+{
+    transform: translateY(-0.65rem);
+    transition: transform 0.2s ease;
+}
+
+.resourceBtnOff
+{
+    transform: translateY(5rem);
+    transition: transform 0.2s ease;
+}
+
+
+.closeBtnOn
+{
+    transform: translateY(0.65rem);
+    transition: transform 0.2s ease;
+}
+
+.closeBtnOff
+{
+    transform: translateY(5rem);
+    transition: transform 0.2s ease;
+}

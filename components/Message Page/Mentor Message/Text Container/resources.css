@@ -1,0 +1,23 @@
+.resourcesBody
+{
+    height: 100%;
+    width: 20rem;
+    background-color: rgba(0, 0, 0, 0.308);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    right: -20rem;
+
+    transition: right 0.3s ease-out;
+}
+
+.showResources
+{
+    height: 100%;
+    width: 20rem;
+    background-color: rgba(110, 110, 110, 0.308);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    right: 0;
+    
+    transition: right 0.3s ease-out;
+}

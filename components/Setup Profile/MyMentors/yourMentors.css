@@ -1,0 +1,54 @@
+.yourMentorsBody
+{
+    padding: 2rem;
+    height: calc(100svh - 4rem);
+    display: flex;
+    width: 99%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0rem;
+    /* border: 1px red solid; */
+}
+
+
+.yourMentorsBody > .myMentors
+{
+    padding: 2rem;
+    /* border: 1px green solid; */
+    border-radius: 0.5rem;
+    background-color: white;
+    /* width: 100%; */
+    height: calc(100svh - 2rem);
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    column-gap: 1rem;
+    row-gap: 2rem;
+    padding-top: 1rem;
+}
+
+
+.yourMentorsBody .mentorSearch
+{
+    /* background-color: black; */
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+.yourMentorsBody .mentorSearch input
+{
+    background-color: rgba(255, 255, 255, 0.658);
+    outline: 1px solid rgb(163, 163, 163);
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid green; */
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

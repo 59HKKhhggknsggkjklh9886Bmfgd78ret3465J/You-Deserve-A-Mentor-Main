@@ -1,0 +1,63 @@
+.textsBody
+{
+    height: calc(100%);
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(56, 56, 56);
+    font-size: 0.9rem;
+
+    overflow-y: scroll;
+}
+
+.senderMessageBody
+{
+    /* border: 1px red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* margin-top: 0.5rem;
+    margin-bottom: 0.5rem; */
+}
+
+.senderMessageBody > p
+{
+    /* border: black 1px solid; */
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    min-width: 10rem;
+    min-height: 1rem;
+    max-height: fit-content;
+    max-width: 20rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+.receiverMessageBody
+{
+    /* border: 1px blue solid; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.receiverMessageBody > p
+{
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    /* border: black 1px solid; */
+    min-width: 10rem;
+    max-width: 20rem;
+    min-height: 1rem;
+    max-height: fit-content;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgb(138, 179, 231);
+}
+
+
+.allTexts
+{
+    background-color: rgba(0, 128, 0, 0);
+    height: fit-content;
+    padding-bottom: 0.5rem;
+}

@@ -1,0 +1,13 @@
+.profileBody
+{
+    height: calc(100svh - 9rem + 2px);
+    /* height: 100%; */
+    width: calc(100%);
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 10px green solid; */
+}

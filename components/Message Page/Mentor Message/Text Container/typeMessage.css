@@ -1,0 +1,55 @@
+.typeMessageBody
+{
+    height: 4rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.911);
+    display: flex;
+    align-items: center;
+}
+
+.inputTypeMessage
+{
+    display: flex;
+    width: 90%;
+}
+.inputTypeMessage > input
+{
+    border: 1px rgb(173, 173, 173) solid;
+    width: calc(100% - 3rem);
+    color: rgb(209, 209, 209);
+    padding-left: 1.5rem;
+    margin-left: 0.5rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+.sendIconTypeMessage
+{
+    /* border: 1px rgb(255, 255, 255) solid; */
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sendIconTypeMessage:hover
+{
+    background-color: rgb(80, 169, 241);
+    transition: all 0.2s ease;
+    color: white;
+}
+
+.sendIconTypeMessage > p
+{
+    /* border: 1px white solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    transform: translateX(0.1rem);
+    width: 3rem;
+    font-size: 1.2rem;
+    border-radius: 50%;
+}

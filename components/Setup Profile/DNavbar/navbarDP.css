@@ -1,0 +1,44 @@
+.navbarDPBody
+{
+    height: 5rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 1rem; */
+    /* border: 1px red solid; */
+    user-select: none;
+    cursor: default;
+
+    border-left: gray 1px solid;
+    padding-left: 2rem;
+}
+
+.navbarDPBody .imgContainer
+{
+    cursor: default;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgba(216, 216, 216, 0);
+    border: 5px solid rgb(216, 216, 216);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+.navbarDpImg
+{
+    height: 120%;
+}
+
+.dashboardContentContainer
+{
+    padding-left: 0.5rem;
+    height: 5rem;
+    padding-top: 1rem;
+    width: calc(100% - 6rem);
+    /* border: 1px blue solid; */
+    font-weight: 200;
+}

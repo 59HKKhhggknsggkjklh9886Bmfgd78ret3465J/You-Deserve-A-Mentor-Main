@@ -1,0 +1,23 @@
+.messageNavbarBody
+{
+    min-width: 100%;
+    height: 4rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.goBackMessage
+{
+    /* border: 1px solid green; */
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 2.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(80, 169, 241);
+    cursor: pointer;
+}

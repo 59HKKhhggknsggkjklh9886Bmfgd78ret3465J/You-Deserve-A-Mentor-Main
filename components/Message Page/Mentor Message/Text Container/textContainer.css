@@ -1,0 +1,9 @@
+.textContainerBody
+{
+    height: 100%;
+    width: calc(100% - 1px);
+    /* background-color: green; */
+    /* border: 1px green solid; */
+    border-left: 1px rgb(151, 151, 151) solid;
+    background-color: white;
+}

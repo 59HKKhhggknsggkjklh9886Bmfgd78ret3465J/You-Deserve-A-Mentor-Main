@@ -1,0 +1,85 @@
+.buttonContainer
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonContainer div
+{
+    display: flex;
+}
+
+
+.menuBtn .menuIcon
+{
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.menuBtn
+{
+    /* background-color: green; */
+    margin-left: 2.5rem;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transform: translateX(0);
+    transition: transform 0.3s ease, margin-left 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.menuBtn div
+{
+    transition: all 0.3s ease, color 0s ease;
+}
+
+.menuBtn:hover > div
+{
+    cursor: pointer;
+    transform: translateX(0.5rem);
+    transition: transform 0.4s ease;
+    /* text-shadow: -1rem 0.6rem 0.3rem black; */
+    
+}
+
+
+
+
+.btn1
+{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(53, 53, 53);
+    width: calc(100% - 1.5rem);
+    border-left: 0;
+    border-right: 0;
+    height: 3.2rem;
+    display: flex;
+    margin-left: 1.5rem;
+    padding-left: 0rem;
+    /* justify-content: center; */
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(216, 216, 216);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    backdrop-filter: drop-shadow(10rem 10rem 1rem black);
+    
+    transition: background-color 0.1s ease;
+}
+
+.btn1 .menuIcon
+{
+    /* border: 1px solid green; */
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+    padding-right: 0;
+    width: max-content;
+    display: flex;
+    /* transition: background-color 0.1s ease; */
+    align-items: center;
+}

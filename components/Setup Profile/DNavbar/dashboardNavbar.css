@@ -1,0 +1,48 @@
+.dashboardNavbar
+{
+    height: 6rem;
+    background-color: rgb(216, 216, 216);
+    width: calc(100% - 0rem);
+    /* padding-right: 1rem; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.dashboardMessage
+{
+    color: rgba(0, 0, 0, 0.712);
+    /* background-color: green; */
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+.dashboardNotif
+{
+    cursor: pointer;
+    margin: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(70, 70, 70);
+    align-items: center;
+}
+
+.mentorMessageIcon
+{
+    color: rgba(80, 80, 80, 0.781);
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mentorMessageIcon:active
+{
+    scale: 0.9;
+    transition: scale 0.2s ease;
+}

@@ -1,0 +1,19 @@
+.canvasjs-chart-credit
+{
+    display: none;
+}
+
+
+.donutChartBody
+{
+    height: 20.2rem;
+    background-color: rgb(47, 49, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0;
+    /* border: 1px red solid; */
+    /* padding-top: 1rem;    */
+}

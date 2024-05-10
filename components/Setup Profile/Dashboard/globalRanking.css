@@ -1,0 +1,23 @@
+.globalrankingBody
+{
+    /* user-select: none; */
+    height: max-content;
+
+    border-radius: 0.6rem;
+    background-color: rgb(47, 49, 65);
+    /* backdrop-filter: blur(10rem); */
+    /* cursor: pointer; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0 0.5rem;
+    /* border: 1px solid black; */
+    margin-left: 1rem;
+}
+
+.globalRankingText
+{
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+}

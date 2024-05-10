@@ -1,0 +1,138 @@
+.mCardsBody
+{
+    user-select: none;
+    min-height: 4rem;
+    width: calc(100% - 0.5rem);
+    background-color: rgb(255, 255, 255);
+    margin-top: 1px;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: scale 0.3s ease;
+}
+
+.mCardsBody:active
+{
+    scale: 0.97;
+    transition: scale 0.1s ease;
+}
+
+.selectedMessageMentor
+{
+    user-select: none;
+    transition: scale 0.3s ease;
+    z-index: 4;
+    min-height: 4rem;
+    width: calc(100% - 0.5rem);
+    background-color: rgb(80, 169, 241);
+    margin-top: 1px;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.mCardsHoverEffect1
+{
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(80, 169, 241);
+    position: absolute;
+    transform: translateX(-30rem);
+    transition: transform 0.2s ease;
+    transform-origin: right;
+}
+
+.mCardsBody:hover .mCardsHoverEffect1
+{
+    transform: translateX(0);
+    transition: transform 0.2s ease 0.1s;
+}
+
+.mCardsBody > div
+{
+    z-index: 2;
+}
+
+.selectedMessageMentor > div
+{
+    z-index: 2;
+}
+
+.mCardsDp
+{
+    height: 3.25rem;
+    width: 3.25rem;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px green solid; */
+}
+.mCardsDp > img
+{
+    height: 140%;
+}
+
+.mCardsLeftSection
+{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px red solid; */
+}
+
+.mCardsRightSection
+{
+    /* border: 1px blue solid; */
+    width: 65%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mCardsName
+{
+    /* border: 1px red solid; */
+    width: max-content;
+    font-size: 0.95rem;
+    color: rgba(0, 0, 0, 0.644);
+    margin-top: 0.2rem;
+    padding: 0.3rem 0rem;
+    padding-bottom: 0;
+    user-select: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.mCardsMessage
+{
+    color: rgba(0, 0, 0, 0.445);
+    font-weight: 500;
+    /* border: 1px blue solid; */
+    margin-top: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: start;
+    font-size: 0.85rem;
+    height: 1.4rem;
+    text-overflow:ellipsis;
+}
+
+
+.mCardsUnread
+{
+    /* border: 1px green solid; */
+    width: 10%;
+    height: 100%;
+}

@@ -1,0 +1,143 @@
+.card_data 
+{
+    width: 21.3rem;
+    /* border: 1px green solid; */
+  display: flex;
+  background-color: rgb(47, 49, 65);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 0.6rem;
+  height: 14rem;
+}
+
+.left-card-data
+{
+    /* border: 1px solid red; */
+    height: 14rem;
+    padding-left: 0.3rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+}
+
+.left-card-data > div
+{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151b22;
+}
+
+.left-card-data img
+{
+    height: 100%;
+    user-select: none;
+    cursor: default;
+    /* border-radius: 50%; */
+}
+
+
+.right-card-data
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px green solid; */
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+
+.pro_content h2 
+{
+    font-size: 1.5rem;
+    /* color: #d13120; */
+    margin-top: 1.5rem;
+    text-transform: capitalize;
+}
+
+.position {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    width: max-content;
+    border-bottom: 1px #ccc solid;
+}
+
+.pro_content p {
+    font-size: 0.9rem;
+}
+
+
+
+.social_icons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.7rem;
+}
+
+.social_icons
+{
+    /* border: 1px blue solid; */
+    display: flex;
+    gap: 0.3rem;
+    color: #212f3d;
+}
+
+.social_icons li
+{
+    position: relative;
+    user-select: none;
+    /* border: 1px red solid; */
+    border-radius: 50%;
+    height: 2.8rem;
+    width: 2,8rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+    /* scale: 1; */
+    /* transition: scale 0.3s ease; */
+    z-index: 4;
+}
+
+
+
+
+.social_icons i
+{
+    z-index: 2;
+    /* border: 1px solid green; */
+    height: 2.8rem;
+    width: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212f3d;
+}
+
+
+.social_icons > li > p1
+{
+    position: absolute;
+    color: transparent;
+    /* z-index: -1; */
+    font-size: 0.8rem;
+    /* color: white; */
+    width: max-content;
+    /* border: 1px solid green; */
+    letter-spacing: -0.4rem;
+    transition: all 0.2s ease;
+}
+
+
+.social_icons li:hover > p1
+{
+    letter-spacing: normal;
+    transform: translateY(2rem);
+    color: white;
+    transition: all 0.2s ease;
+}

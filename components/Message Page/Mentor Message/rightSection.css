@@ -1,0 +1,6 @@
+.rightSectionBody
+{
+    min-width: calc(70%);
+    height: calc(100svh - 4rem);
+    background-color: red;
+}

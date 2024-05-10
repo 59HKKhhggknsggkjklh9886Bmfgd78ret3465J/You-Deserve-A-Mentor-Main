@@ -1,0 +1,11 @@
+.mentorMessagesBody
+{
+    display: flex;
+    flex-direction: column;
+    height: calc(100svh - 9rem);
+}
+
+.mentorMessagesChild
+{
+    display: flex;
+}
